@@ -290,7 +290,17 @@ export default function ThankYou() {
                   initial={{ opacity: 0, y: 5 }} animate={{ opacity: 1, y: 0 }} exit={{ opacity: 0 }}
                   className="text-[11px] text-rose-600 font-black leading-relaxed"
                 >
-                  "May your final year bring the opportunities you have worked for, kind people, new places to explore and the courage to choose what is right for you. Keep that spark, Purva. 🌻✨"
+                   "May your final year bring you the opportunities you've worked so hard for, kind people, new places to explore, and the courage to choose what's right for you.
+
+And congratulations on getting placed at **L&T, Purva!** You deserve this achievement. Wishing you all the very best for GATE too. I hope you achieve everything you've been working towards. 🌻✨
+
+Sometimes, I still think about **13th July 2024 — our last physical meeting at Krishpay Love Cafe.** Funny how certain dates and places stay with you, even when life moves on.
+
+Healing is so weird. You can still love and miss people, remember them in the smallest things, and yet not want them back in your life.
+
+And one thing I wish you understood: I was never trying to be toxic or hurt you. Maybe I was possessive, sometimes more than I should have been, but it came from being emotionally attached to you. That doesn't justify everything, but it was never about wanting to make things difficult for you.
+
+**Again, Happy Birthday, Purva.** I genuinely wish you a beautiful life ahead. ❤️"
                 </motion.p>
               )}
             </AnimatePresence>

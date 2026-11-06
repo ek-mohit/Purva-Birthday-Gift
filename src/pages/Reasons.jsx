@@ -1,4 +1,3 @@
-
 import { useState, useEffect } from 'react';
 import { useNavigate } from 'react-router-dom';
 import { motion, AnimatePresence } from 'framer-motion';
@@ -138,12 +137,15 @@ export default function Reasons() {
           </div>
         </div>
 
+        {/* FESTIVE PHOTO: FACE VISIBILITY FIXED */}
         <div className="w-36 h-48 md:w-48 md:h-64 bg-white p-3 rounded-3xl shadow-xl border border-pink-100 opacity-95 z-0 border-b-[12px] rotate-[-2deg] hover:rotate-0 transition-transform duration-300">
-          <img
-            src="/assets/bubble-photo1.jpeg"
-            alt="Aesthetic"
-            className="w-full h-4/5 object-cover rounded-2xl"
-          />
+          <div className="w-full h-4/5 rounded-2xl overflow-hidden bg-[#fff7fb] flex items-center justify-center">
+            <img
+              src="/assets/bubble-photo1.jpeg"
+              alt="Purva in her festive look"
+              className="w-full h-full object-contain object-top rounded-2xl"
+            />
+          </div>
 
           <div className="text-xs text-center font-serif text-pink-400 pt-2 font-bold tracking-wide">
             A little festive glow 🪔
